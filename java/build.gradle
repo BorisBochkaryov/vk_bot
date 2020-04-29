@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'ru.example.App'
+
+dependencies {
+    compile 'com.vk.api:sdk:1.0.6'
+}
