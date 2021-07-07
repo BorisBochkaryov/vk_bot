@@ -19,7 +19,7 @@ try:
     keyboard = VkKeyboard(one_time=True)
     keyboard.add_button("Кнопка 1", color=VkKeyboardColor.DEFAULT)
     keyboard.add_button("Кнопка 2", color=VkKeyboardColor.NEGATIVE)
-    keyboard.add_button("Кнопка 3", color=VkKeyboardColor.POSITIVE)
+    keyboard.add_button("Кнопка 3.1", color=VkKeyboardColor.POSITIVE)
     keyboard.add_line()
     keyboard.add_button("Кнопка 4", color=VkKeyboardColor.PRIMARY)
     keyboard.add_line()
